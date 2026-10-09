@@ -1,0 +1,12 @@
+// SPDX-FileCopyrightText: 2026 Mert Torun
+// SPDX-License-Identifier: MIT
+//
+// Markdown rules of this repository. Long lines are allowed, because a
+// paragraph is one line. The README opens with its licence comment, so its
+// first line is not a heading. A heading may repeat under a different parent.
+{
+  "default": true,
+  "MD013": false,
+  "MD041": false,
+  "MD024": { "siblings_only": true }
+}

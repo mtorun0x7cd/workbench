@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 Mert Torun
+# SPDX-License-Identifier: MIT
+
+# Text files are stored with LF line endings.
+* text=auto eol=lf
+
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.toml   text eol=lf
+*.jsonc  text eol=lf
+*.sh     text eol=lf
+*.svg    text eol=lf
+
+# Binary files.
+*.png   binary
