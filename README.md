@@ -18,7 +18,7 @@ Every experiment starts as an issue and is carried out in a pull request. I work
 | Issue | Pull request | Date | What was tried | Result | Carried to the published works |
 | --- | --- | --- | --- | --- | --- |
 | [#1](https://github.com/mtorun0x7cd/workbench/issues/1) | [#2](https://github.com/mtorun0x7cd/workbench/pull/2) | 2026-10-09 | A Markdown lint and a secret scan on every pull request and every push to `main` | Both checks passed ([runs](https://github.com/mtorun0x7cd/workbench/pull/2/checks)). They were not required checks, so the merge at 16:41:11 UTC did not wait for the Markdown lint, which finished at 16:41:18 UTC; the secret scan had finished at 16:41:10 UTC. | Not yet. The works run the same two checks with markdownlint-cli2 0.23.0; this repository runs 0.23.3. |
-| [#3](https://github.com/mtorun0x7cd/workbench/issues/3) | [#4](https://github.com/mtorun0x7cd/workbench/pull/4) | 2026-10-12 | A review requested from a collaborator and still outstanding when the pull request is merged | Open at the merge. [#2](https://github.com/mtorun0x7cd/workbench/pull/2) was merged without a requested review and had not earned YOLO 68 hours later. | No; it concerns the profile, not the works. |
+| [#3](https://github.com/mtorun0x7cd/workbench/issues/3) | [#4](https://github.com/mtorun0x7cd/workbench/pull/4) | 2026-10-12 | A review requested from a collaborator and still outstanding when the pull request is merged | Both checks passed ([runs](https://github.com/mtorun0x7cd/workbench/pull/4/checks)), the secret scan at 13:52:27 UTC and the Markdown lint at 13:52:32 UTC. The review had been requested at 13:52:12 UTC and was still outstanding at the merge at 13:52:39 UTC. The profile showed YOLO at the first look afterwards, at 13:53:00 UTC. [#2](https://github.com/mtorun0x7cd/workbench/pull/2) was merged without a requested review and had not earned YOLO 68 hours later. | No; it concerns the profile, not the works. |
 
 Repository rulesets, the merge and retention settings, and releases have not been tried here yet.
 
@@ -44,7 +44,7 @@ The hook in `.githooks/pre-commit` scans the staged changes with gitleaks. Where
 
 ## Achievements
 
-Working this way also earns some of GitHub's profile achievements, such as Quickdraw for closing an issue within five minutes of opening it, and YOLO for merging a pull request without a review; what exactly counts as that is tried in [#3](https://github.com/mtorun0x7cd/workbench/issues/3). They are not why this repository exists, and they are not hidden either: an issue or pull request that earns one says so.
+Working this way also earns some of GitHub's profile achievements, such as Quickdraw for closing an issue within five minutes of opening it, and YOLO for merging a pull request without a review. Here a merge with no review requested did not earn YOLO, and one with a requested review still outstanding did ([#3](https://github.com/mtorun0x7cd/workbench/issues/3)). The achievements are not why this repository exists, and they are not hidden either: an issue or pull request that earns one says so.
 
 ## Contents
 
