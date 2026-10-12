@@ -8,12 +8,12 @@
 -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="card-title card-desc">
   <title id="card-title">Workbench</title>
-  <desc id="card-desc">Trying GitHub workflows, rules and releases. github.com/mtorun0x7cd/workbench</desc>
+  <desc id="card-desc">A sandbox for trying GitHub Actions workflows, repository rulesets and releases.</desc>
   <rect width="1280" height="640" fill="#FFFFFF"/>
   <rect x="0" y="0" width="24" height="640" fill="#2563EB"/>
   <g font-family="Inter, Helvetica, Arial, sans-serif">
     <text x="112" y="276" font-size="76" font-weight="700" fill="#0F172A">Workbench</text>
-    <text x="112" y="372" font-size="40" font-weight="400" fill="#475569">Trying GitHub workflows, rules and releases</text>
-    <text x="112" y="444" font-size="40" font-weight="500" fill="#1D4ED8">github.com/mtorun0x7cd/workbench</text>
+    <text x="112" y="372" font-size="40" font-weight="400" fill="#475569">A sandbox for trying GitHub Actions workflows,</text>
+    <text x="112" y="428" font-size="40" font-weight="400" fill="#475569">repository rulesets and releases</text>
   </g>
 </svg>
