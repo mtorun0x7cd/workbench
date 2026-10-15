@@ -60,6 +60,7 @@ Working this way also earns some of GitHub's profile achievements, such as Quick
 | `.gitignore` | editor and operating system files that Git leaves out |
 | `.gitleaks.toml` | the rules of the secret scan |
 | `.markdownlint.jsonc` | the rules of the Markdown lint |
+| [`FAQ.md`](FAQ.md) | two questions from the discussions, with their answers |
 | [`LICENSE`](LICENSE) | the MIT License |
 | [`SECURITY.md`](SECURITY.md) | how to report a security problem |
 
