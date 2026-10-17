@@ -54,6 +54,7 @@ Working this way also earns some of GitHub's profile achievements, such as Quick
 | --- | --- |
 | `.github/workflows/` | the two checks, `docs.yml` and `secret-scan.yml` |
 | `.github/FUNDING.yml` | the sponsor links of the account; inactive here, because the Sponsor button is turned off for this repository |
+| `.github/dependabot.yml` | the monthly Dependabot updates of the pinned actions |
 | `.githooks/pre-commit` | a secret scan of the staged changes with gitleaks; enable it in a clone with `git config core.hooksPath .githooks` |
 | `docs/social/` | the social card, and `render.sh`, which renders it with rsvg-convert |
 | `.editorconfig` | character set, line endings and indentation for editors |
