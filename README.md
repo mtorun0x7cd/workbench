@@ -11,7 +11,7 @@ A sandbox for trying GitHub Actions workflows, repository settings and rulesets,
 
 ## How it is used
 
-Every experiment starts as an issue and is carried out in a pull request. I work here alone, so my pull requests are merged without review. What holds here is then carried over. Others may open issues and pull requests as well; a reply is not guaranteed.
+Every experiment starts as an issue and is carried out in a pull request. I work here mostly alone, and my own pull requests are merged without review; a collaborator takes part where an experiment needs a second account. What holds here is then carried over. Others may open issues and pull requests as well; a reply is not guaranteed.
 
 ## Experiments
 
