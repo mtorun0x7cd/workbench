@@ -11,7 +11,7 @@ A sandbox for trying GitHub Actions workflows, repository settings and rulesets,
 
 ## How it is used
 
-Every experiment starts as an issue and is carried out in a pull request. I work here alone, so my pull requests are merged without review. What holds here is then carried over. Others may open issues and pull requests as well; a reply is not guaranteed.
+Every experiment starts as an issue and is carried out in a pull request. I work here mostly alone, and my own pull requests are merged without review; a collaborator takes part where an experiment needs a second account. What holds here is then carried over. Others may open issues and pull requests as well; a reply is not guaranteed.
 
 ## Experiments
 
@@ -46,7 +46,7 @@ The hook in `.githooks/pre-commit` scans the staged changes with gitleaks. Where
 
 ## Achievements
 
-Working this way also earns some of GitHub's profile achievements, such as Quickdraw for closing an issue within five minutes of opening it, and YOLO for merging a pull request without a review. Here a merge with no review requested did not earn YOLO, and one with a requested review still outstanding did ([#3](https://github.com/mtorun0x7cd/workbench/issues/3)). The achievements are not why this repository exists, and they are not hidden either: an issue or pull request that earns one says so.
+Working this way also earns some of GitHub's profile achievements, such as Quickdraw for closing an issue within five minutes of opening it, and YOLO for merging a pull request without a review. Here a merge with no review requested did not earn YOLO, and one with a requested review still outstanding did ([#3](https://github.com/mtorun0x7cd/workbench/issues/3)). Pair Extraordinaire did not follow [#7](https://github.com/mtorun0x7cd/workbench/pull/7): its one commit was co-authored, but it was made before the pull request was opened, and the pull request was merged eleven seconds after it was opened. The achievements are not why this repository exists, and they are not hidden either: an issue or pull request that earns one says so.
 
 ## Contents
 
